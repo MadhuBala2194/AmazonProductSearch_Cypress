@@ -1,0 +1,7 @@
+{
+  "testFiles": "**/*.feature",
+  "env": {
+    "application_url": "https://www.amazon.com/"
+  },
+  "projectId": "3jjiy1"
+}

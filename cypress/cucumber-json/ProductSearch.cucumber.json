@@ -1,0 +1,73 @@
+[
+  {
+    "description": "        Search a product in application, sort the results, select the second product and verify the details",
+    "keyword": "Feature",
+    "name": "Amazon Product search",
+    "line": 1,
+    "id": "amazon-product-search",
+    "tags": [],
+    "uri": "ProductSearch.feature",
+    "elements": [
+      {
+        "id": "amazon-product-search;search-and-verify-a-product",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Search and verify a product",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user enters into application",
+            "result": {
+              "status": "passed",
+              "duration": 12790000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user search for \"nikon\" product",
+            "result": {
+              "status": "passed",
+              "duration": 11201000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user sort the product price from highest to lowest",
+            "result": {
+              "status": "passed",
+              "duration": 4429000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "user selects row number 2 from results and clicks for details",
+            "result": {
+              "status": "passed",
+              "duration": 11286000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "user verifies product contains \"Nikon D3100\"",
+            "result": {
+              "status": "passed",
+              "duration": 200000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
