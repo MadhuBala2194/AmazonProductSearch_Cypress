@@ -61,15 +61,16 @@ This example requires the following softwares to run.
 
 ## Html Reports
 -For Html reports
+
  . Add below statement in package.json
-     "cypress-cucumber-preprocessor": {
-     "cucumberJson": {
-      "generate": true,
-      "outputFolder": "cypress/cucumber-json",
-      "filePrefix": "",
-      "fileSuffix": ".cucumber"
-    }
-   }
+       "cypress-cucumber-preprocessor": {
+       "cucumberJson": {
+        "generate": true,
+        "outputFolder": "cypress/cucumber-json",
+        "filePrefix": "",
+        "fileSuffix": ".cucumber"
+      }
+     }
  . Run the below command in terminal
     npm install cucumber-html-reporter --save-dev
   
